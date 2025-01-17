@@ -9,7 +9,7 @@ Disciplina: Programação Orientada a Objetos
 
 Atividade: Atividade Extra 01 - Herança e Polimorfismo
 
-Instruções
+Instruções:
 Sua implementação deve estar dentro da pasta src/main/java
 Não modifique nenhum código dentro da pasta src/test/java).
 A submissão não deve ser feita após o prazo (nem 1 minuto a mais)
@@ -33,7 +33,9 @@ Bird:
 Nome: "Tweety"
 Som: "piu"
 Habilidade: "fly"
-Todas as classes de animais devem herdar de uma superclasse chamada Animal. A classe Animal deve conter os seguintes atributos: id (do tipo long), name (String), age (int) weight (double), abilities (ArrayList abilities). Além disso, a classe Animal deve conter um método para retornar o som que o animal faz e outro método que, dada uma habilidade, retorna se o animal pode ou não realizar tal habilidade
+Todas as classes de animais devem herdar de uma superclasse chamada Animal. 
+A classe Animal deve conter os seguintes atributos: id (do tipo long), name (String), age (int) weight (double), abilities (ArrayList abilities). 
+Além disso, a classe Animal deve conter um método para retornar o som que o animal faz e outro método que, dada uma habilidade, retorna se o animal pode ou não realizar tal habilidade
 
 String sound(): Retorna o som que o animal faz.
 String performAbility(String ability): Dado uma habilidade, retorna se o animal pode ou não realizar tal habilidade da seguinte forma: se tem a habilidade -> "Buddy can sniff" (nome + "can" + habilidade) ou se não tem -> "Buddy can't agility" (nome + "can't" + habilidade)

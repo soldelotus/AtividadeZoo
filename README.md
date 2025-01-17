@@ -9,12 +9,16 @@ Disciplina: Programação Orientada a Objetos
 
 Atividade: Atividade Extra 01 - Herança e Polimorfismo
 
-Instruções:
-Sua implementação deve estar dentro da pasta src/main/java
-Não modifique nenhum código dentro da pasta src/test/java).
-A submissão não deve ser feita após o prazo (nem 1 minuto a mais)
 Descrição da Atividade
 Desenvolver um sistema simples de gerenciamento de zoológico, onde existem diferentes tipos de animais, cada um com suas características e habilidades específicas. O sistema deve ser capaz de adicionar, listar e remover animais do zoológico.
+
+## Instruções
+
+1. Sua implementação deve estar dentro da pasta `src/main/java`.
+2. Não modifique nenhum código dentro da pasta `src/test/java`.
+3. A submissão **não deve ser feita após o prazo** (nem 1 minuto a mais).
+
+---
 
 O zoológico tem três tipos de animais: Gatos, Cães e Passarinhos. Cada tipo de animal possui um nome, som característico e uma habilidade:
 

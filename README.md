@@ -1,4 +1,4 @@
-Lista de Exercícios
+# Lista de Exercícios
 
 Identificação
 Professor: MSc. Iago Rodrigues
@@ -43,9 +43,10 @@ A classe Zoo será responsável pelo gerenciamento dos animais. Ela deve conter 
 
 Além disso, a classe Zoo deve ser capaz de:
 
-void addAnimal(Animal animal): Adiciona um animal à lista.
-ArrayList listAnimals(): Retorna a lista de animais.
-boolean removeAnimal(long id): Remove um animal da lista dado um ID.
+1. void addAnimal(Animal animal): Adiciona um animal à lista.
+2. ArrayList listAnimals(): Retorna a lista de animais.
+3. boolean removeAnimal(long id): Remove um animal da lista dado um ID.
+
 Instruções adicionais:
-Implemente a superclasse Animal e as subclasses Gato, Cachorro e Passarinho conforme as especificações acima.
-Implemente a classe Zoo com os atributos e métodos detalhados acima.
+1. Implemente a superclasse Animal e as subclasses Gato, Cachorro e Passarinho conforme as especificações acima.
+2. Implemente a classe Zoo com os atributos e métodos detalhados acima.

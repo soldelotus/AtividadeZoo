@@ -10,7 +10,9 @@ Disciplina: Programação Orientada a Objetos
 Atividade: Atividade Extra 01 - Herança e Polimorfismo
 
 Descrição da Atividade
-Desenvolver um sistema simples de gerenciamento de zoológico, onde existem diferentes tipos de animais, cada um com suas características e habilidades específicas. O sistema deve ser capaz de adicionar, listar e remover animais do zoológico.
+Desenvolver um sistema simples de gerenciamento de zoológico, onde existem diferentes tipos de animais, cada um com suas características e habilidades específicas. 
+
+O sistema deve ser capaz de adicionar, listar e remover animais do zoológico.
 
 ## Instruções
 
@@ -25,24 +27,39 @@ O zoológico tem três tipos de animais: Gatos, Cães e Passarinhos. Cada tipo d
 Cat:
 
 Nome: "Whiskers"
+
 Som: "meow"
+
 Habilidade: "agility"
+
+
 Dog:
 
 Nome: "Buddy"
+
 Som: "au"
+
 Habilidade: "sniff"
+
+
 Bird:
 
 Nome: "Tweety"
+
 Som: "piu"
+
 Habilidade: "fly"
+
 Todas as classes de animais devem herdar de uma superclasse chamada Animal. 
+
 A classe Animal deve conter os seguintes atributos: id (do tipo long), name (String), age (int) weight (double), abilities (ArrayList abilities). 
+
 Além disso, a classe Animal deve conter um método para retornar o som que o animal faz e outro método que, dada uma habilidade, retorna se o animal pode ou não realizar tal habilidade
 
 String sound(): Retorna o som que o animal faz.
+
 String performAbility(String ability): Dado uma habilidade, retorna se o animal pode ou não realizar tal habilidade da seguinte forma: se tem a habilidade -> "Buddy can sniff" (nome + "can" + habilidade) ou se não tem -> "Buddy can't agility" (nome + "can't" + habilidade)
+
 A classe Zoo será responsável pelo gerenciamento dos animais. Ela deve conter um ArrayList de animais: ArrayList animals (um ArrayList que armazena os animais do zoológico)
 
 Além disso, a classe Zoo deve ser capaz de:
